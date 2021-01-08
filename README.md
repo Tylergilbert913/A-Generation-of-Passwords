@@ -1,9 +1,9 @@
-# Password Generator
+# The Generation of Passwords
 
 ## Link to Deployed Site
 
 ## Description
-    I created a password generator, which will create a different password each time, but the user must specify how many uppercase characters, lowercase characters, numerical character or special character.
+    I created a password generator, which will generate a different password each time, but the user must specify how many characters they want 9which must be between 8 - 128 characters), then choose how manyuppercase characters, lowercase characters, numerical character or special character.
 
     This will then generate a password made up of 8 - 128 characters long, that will be stored in the DOM.
 
@@ -27,5 +27,6 @@
         * ![Screenshot (48)](https://user-images.githubusercontent.com/73138234/103972522-2c1dc180-513b-11eb-9ad6-9084ca64c451.png)
     
     7. The users password will then be generated.
-        *
+        * ![Screenshot (49)](https://user-images.githubusercontent.com/73138234/103973051-84a18e80-513c-11eb-9d60-7b87aa4573ac.png)
+
 
