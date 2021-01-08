@@ -6,6 +6,7 @@ var generateBtn = document.querySelector("#generate")
 
 // clicks the button for generating a password
 generateBtn.addEventListener("click", generatePassword);
+
 // function that generates your password
 function generatePassword() {
 
@@ -31,38 +32,46 @@ function generatePassword() {
         console.log(passwordLengthInput);
         
     } 
+
 // confirms wether the user would like lowercase characters
     if (lowercaseCharsInput) {
         passwordCharset += lowercaseChars;
         console.log(lowercaseCharsInput);
     }
+
     // if false then the user is alerted
     else {
         alert("You don't care for any lowercase characters!");
     }
+
 // confirms wether the user would like uppercase characters
     if (uppercaseCharsInput) {
         passwordCharset += uppercaseChars;
         console.log(uppercaseCharsInput);
     }
+
     // if false then the user is alerted
     else {
         alert("You don't care for any uppercase characters!")
     }
+
 // confirms wether the user would like numerical characters
     if (numericCharsInput) {
         passwordCharset += numericChars;
         console.log(numericCharsInput);
     }
+
     // if flase then the user is alerted
     else {
         alert("You don't care for any numerical characters!");
     }
+
 // confirms wether the user would like special cahracters
     if (specialCharsInput) {
         passwordCharset += specialChars;
         console.log(specialCharsInput);
     }
+
     // if false the user is alerted
     else {
         alert("You dont care for any special characters!");
