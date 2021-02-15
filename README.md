@@ -1,6 +1,7 @@
 # The Generation of Passwords
 
 ## Link to Deployed Site
+ https://tylergilbert913.github.io/A-Generation-of-Passwords/
 
 ## Description
     I created a password generator, which will generate a different password each time, but the user must specify how many characters they want 9which must be between 8 - 128 characters), then choose how manyuppercase characters, lowercase characters, numerical character or special character.
